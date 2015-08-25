@@ -19,7 +19,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 //$config['base_url'] = 'http://localhost/~carlosvidalferrero/vMascotasLuna/appAgenda_v4/';
 //$config['base_url'] = 'http://192.168.1.13/~carlosvidalferrero/vMascotasLuna/appAgenda_v4/';
-$config['base_url'] = '/appAgenda_v4/';
+$config['base_url'] = '/appAgenda/';
 
 /*
 |--------------------------------------------------------------------------
@@ -360,7 +360,8 @@ $config['encryption_key'] = '4ppM4sc0t4s1un42015';
 */
 $config['sess_driver'] = 'files';
 $config['sess_cookie_name'] = 'ci_session';
-$config['sess_expiration'] = 7200;
+//$config['sess_expiration'] = 7200;
+$config['sess_expiration'] = 43200; // 25082015 Modifico a 12h.
 $config['sess_save_path'] = NULL;
 $config['sess_match_ip'] = FALSE;
 $config['sess_time_to_update'] = 300;
