@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{padding-top:30px}
+
+
+	.infobox .btn-sup { color: rgba(0,0,0,0.5); font-weight: bold; font-size: 30px; line-height: 45px; }
+	.infobox .btn-sup img { opacity: 0.5; height: 30px;}
+	.infobox .btn-sup span { padding-left: 10px; position: relative; top: 2px; }
+	.icons-material .row { margin-bottom: 20px; }
+	.icons-material .col-xs-2 { text-align: center; }
+	.icons-material i { font-size: 34pt; }
+
+	.icon-preview {
+		display: inline-block;
+		padding: 20px;
+		margin: 20px;
+		background:#6CF;
+		border-radius: 3px;
+		cursor: pointer;
+	}
+	.icon-preview span {
+		display: none;
+		position: absolute;
+		background: black;
+		color: #EEE;
+		padding: 5px 8px;
+		font-size: 15px;
+		font-family: Roboto;
+		border-radius: 2px;
+		z-index: 10;
+	}
+	.icon-preview:hover i { color:#FFF; }
+	.icon-preview:hover span { display: block; cursor: text; }
+	
+  .red_medico{
+    color: #F00;
+    font-weight: bold;
+  }
+#shadow h2 {
+    padding: 14px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  #shadow .sample {
+    width:  100px;
+    height: 100px;
+    margin: 16px;
+    padding: 16px;
+    display: inline-block;
+  }
+  #shadow-sample2 {
+    display: inline-block;
+    width:  100px;
+    height: 100px;
+    margin: 16px;
+    padding: 16px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+
+  }
+  #shadow-sample3 {
+    display: inline-block;
+    width:  100px;
+    height: 100px;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 100px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+   #radio-button h2 {
+    font-size: 18.7199993133545px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
+  #radio-button .radio {
+    margin: 20px 10px;
+  }
+
+
+a:link {text-decoration:none;color:#0000cc;}
+
+
+a:visited {text-decoration:none;color:#0000cc;}
+
+
+a:active {text-decoration:none;color:#0000cc;}
+
+
+a:hover {text-decoration:underline;color:#0000cc;} 
+
+.nombre_mascota{
+font-size: 60px;
+}
+ 
