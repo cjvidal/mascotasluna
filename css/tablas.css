@@ -1,0 +1,66 @@
+ @charset "UTF-8";
+
+ .table{
+    margin-top: 10px;
+
+  }
+  .tableHeadMascotas{
+  	background-color: olive;
+  	color: white;
+  }
+  .tableHeadClientes{
+  	background-color: teal;
+  	color: white;
+  }
+  .tableBodyClientes{
+    vertical-align = middle;
+    valign = middle;
+
+  }
+
+  .textoblanco{
+    color: white;
+  }
+
+  .td_center{
+    text-align: center;
+  }
+
+  .td_mascota{
+
+  }
+  .nombreMascota{
+    color: brown;
+    font-size: 30px;
+   }
+
+   .nombre_mascota{
+    /*Esta clase es para el escritorio para poder visualizar mejor el nombre de la mascota.*/
+    color: brown;
+    font-size: 30px;
+  }
+    .msc_p_medicos{
+    /*Esta clase es para el escritorio para poder visualizar mejor el nombre de la mascota.*/
+    color: brown;
+    font-size: 20px;
+}
+ .cliente_debe{
+    color:red;
+    font-size: 20px;
+    background-color:transparent ;
+ }
+
+
+a:link {text-decoration:none;color:#FFFFFF;}
+
+
+a:visited {text-decoration:none;color:#FFFFFF;}
+
+
+a:active {text-decoration:none;color:#FFFFFF;}
+
+
+a:hover {text-decoration:none;color:#FFFFFF;} 
+
+
+ 
