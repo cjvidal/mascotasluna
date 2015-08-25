@@ -1,0 +1,17 @@
+### Actualizaciones 
+
+
+-------------Revisión 19 / 08 / 2015
+	* Se da un problema en la búsqueda del cliente. Hay veces que no funciona al buscar por el apellido.
+		--NOta: Se detecta que por el segundo apellido no realiza búsqueda.
+
+
+
+
+
+
+	* Al insertar un cliente nuevo, si el cliente ya existe no da la opción de mostrar su ficha, por lo que al final
+		se termina creando el paciente duplicado.
+
+	* El tiempo del login es muy bajo, cada vez que se vuelve a consultar la aplicación hay que loguearse.
+		-- Se modifica para que refresque cada 12 h.	
